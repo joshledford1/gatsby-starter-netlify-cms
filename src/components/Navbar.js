@@ -101,11 +101,17 @@ const Navbar = class extends React.Component {
 						/>
 					</svg>
 				</Link>
-				<nav className="gap-4 items-center hidden md:flex md:relative md:">
-					<Link to="#services" className="text-white">
+				<nav className="gap-8 items-center hidden md:flex md:relative md:z-10">
+					<Link
+						to="#services"
+						className="text-white hover:text-white hover:underline"
+					>
 						Services
 					</Link>
-					<Link to="#careers" className="text-white">
+					<Link
+						to="#careers"
+						className="text-white hover:text-white hover:underline"
+					>
 						Careers
 					</Link>
 					<Link
