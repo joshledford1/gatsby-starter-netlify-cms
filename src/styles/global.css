@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	html {
+		font-family: "Work Sans", sans-serif;
+	}
+}
+
+@layer components {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-family: "Anton", sans-serif;
+	}
+}
+
+.wrapper {
+	width: 92%;
+	max-width: 1075px;
+	margin-left: auto;
+	margin-right: auto;
+}
