@@ -21,10 +21,10 @@ export const IndexPageTemplate = ({
 	//const heroImage = getImage(image) || image;
 
 	return (
-		<div className="md:mt-[-74px]">
+		<div className="md:mt-[-106px]">
 			<div className="hero w-full relative">
 				<div className="grid grid-cols-12 gap-4 items-center relative">
-					<div className="col-span-full md:col-span-6 2xl:col-span-3 2xl:col-start-4 px-4 py-8">
+					<div className="col-span-full md:col-span-6 px-4 pt-8 md:pt-28 pb-8 2xl:col-span-3 2xl:col-start-4 2xl:px-4 2xl:py-8">
 						<h1 className="text-black text-4xl md:text-5xl lg:text-7xl mb-8 leading-tight">
 							Break the Weak Data Status Quo
 						</h1>
@@ -43,7 +43,7 @@ export const IndexPageTemplate = ({
 							Start Now
 						</Link>
 					</div>
-					<div className="hidden h-full md:block md:col-span-6 bg-[#9934dc]">
+					<div className="hidden h-full px-4 pt-28 pb-8 md:block md:col-span-6 bg-[#9934dc] md:px-0 xl:py-0">
 						<img
 							src="/img/home-hero.png"
 							alt=""
